@@ -9,4 +9,9 @@ and CMGI 10K -> 10 Million and by 99' he opened up the Pabraifunds
 * since 99- till now his Strategy was buy for 50 cents worth of 1$ and sell for 90 cents and his being doing that for a while. But, in hindsight this approach is not good and it makes 
 sense just to hold on like he did from 95-99 period.
 
-* See here: ![Imgur Image](https://imgur.com/hCf2sHr) 
+*![DOW](https://imgur.com/hCf2sHr.png) 
+* ![NASDAQ](https://i.imgur.com/yzqh9pA.jpg)
+* ![NIKKEI](https://i.imgur.com/3cXKNEt.jpg)
+
+
+
