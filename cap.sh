@@ -1,6 +1,7 @@
 #!/bin/bash
 # cap.sh videoUrl sub.txt  
 # https://stackoverflow.com/questions/59244045/how-to-modify-this-sed-awk-command-so-that-the-output-goes-to-a-file-of-choice/61296419#61296419
+# https://stackoverflow.com/questions/42334372/removing-time-stamp-with-sed
 
 # Download captions only and save in a .vtt file
 youtube-dl --skip-download --write-auto-sub "$1";
