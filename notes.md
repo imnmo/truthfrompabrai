@@ -13,5 +13,7 @@ sense just to hold on like he did from 95-99 period.
 * ![NASDAQ](https://i.imgur.com/yzqh9pA.jpg)
 * ![NIKKEI](https://i.imgur.com/3cXKNEt.jpg)
 
+* 
+
 
 
