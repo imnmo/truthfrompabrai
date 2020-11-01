@@ -16,6 +16,8 @@ sense just to hold on like he did from 95-99 period.
 
 # Companies: 
 * NVR: A home builder company and which had aggresive buybacks and stock has returned about 55x then on. 
+
+# Never sell:
 * Notes on Chuck Akre: Never to sell and 100 to 1 : https://www.akrecapital.com/the-art-of-not-selling/
 
 # Checklist:
@@ -24,8 +26,20 @@ sense just to hold on like he did from 95-99 period.
 * Leverage is very important part-> *It turned to be the number onw Mistake for Oabari during GFC* 
 * Economic moast and durabilty is important part
 
-# Valuation metrics:
+# Valuation metrics | Businesss:
+* Holy grail of investing RRS -> recurring revenue stream
 * FCA: doing 130 plus billion in revenue and a five six billion dollar market cap and eek out 3-4 % then its multi bagger
-* Important is it really within circle of competence and figuring 2-3 key varibales of the business eg. NVR key1: the dont build homes unless someone bought the house, so its capital light. Key2: They dont own any land, which again makes easy for their business. After identifying these keys, the CEO should be honing onto these points and steering the ship. Like: the exmaple of rollins the key was to steer onto the tranings and 
+* Important is it really within **circle of competence** and figuring 2-3 key varibales of the business eg. NVR key1: the dont build homes unless someone bought the house, so its capital light. Key2: They dont own any land, which again makes easy for their business. After identifying these keys, the CEO should be honing onto these points and steering the ship. Like: the exmaple of rollins the key was to steer onto the tranings and 
+* what other investors are buying like chuck akre, david tepper, jeff urben and their pattersn
+* one filter is oher investors already bought this stock especiall top 3 or larger holdings in their portfolio or can reverse engineer them to construct a thesis
+
+# Cloning:
+* its a great mental model
+* cloning and copying most humans and most companies are better of great example is MSFT cloned mac, aws and so on and they are here to stay also Samsung copied apple
+* Walmart sam copied exclusively from kmart & sears
+* markets recognize the power of great cloning alos Starbucks
+* 
+ 
+
 
 
