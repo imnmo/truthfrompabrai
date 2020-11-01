@@ -25,6 +25,7 @@ sense just to hold on like he did from 95-99 period.
 * contains 150 questions 
 * Leverage is very important part-> *It turned to be the number onw Mistake for Oabari during GFC* 
 * Economic moast and durabilty is important part
+* NOt said by MP:leadership and incentive of the manager or CEO 
 
 # Valuation metrics | Businesss:
 * Holy grail of investing RRS -> recurring revenue stream
