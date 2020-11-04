@@ -20,3 +20,5 @@ sed '1,/^$/d' "$vtt" \
 rm -f "$vtt"
 
 cat sub.txt | sed -E 's/[0-9]{2}:[0-9]{2}:[0-9]{2}//' > sub_final.txt
+
+cat Trying_to_Solve_the_Investment_Puzzle___Chuck_Akre___Talks_at_Google-O38I7QIc_eQ.en.vtt | sed -E 's/[0-9]{2}:[0-9]{2}:[0-9]{2}\.[0-999]{3}//g' > sub_gtalk_akre_final_parsed.txt
