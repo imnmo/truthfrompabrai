@@ -18,3 +18,5 @@ sed '1,/^$/d' "$vtt" \
 
 # Remove the original .vtt subs file
 rm -f "$vtt"
+
+cat sub.txt | sed -E 's/[0-9]{2}:[0-9]{2}:[0-9]{2}//' > sub_final.txt
