@@ -15,22 +15,9 @@ jobs:
   parse-issue-and-create-pr:
     if: github.event_name != 'push' && github.event_name != 'pull_request' && (github.event_name == 'issue_comment' && github.event.comment.body == '/vaidate' ) && (github.event_name != 'schedule')
     runs-on: ubuntu-latest
-    name: Parse issue, validate & say hi
+    name: Parse issue with validate and say hi
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - uses: actions/setup-node@v2
-        with:
-          node-version: '12'
-          check-latest: true
-      - run: npm install
-      - name: parsing from body of the issue
-        uses: ./
-        id: parseissue
-        with:
-          starting-parse-symbol: '<!--::-->'
-          file-name-extension: 'tweet'
-          token: ${{ secrets.GITHUB_TOKEN }}
+      - run: echo "🎉 your /validate had triggered me 🎉"
       
       - name: Create Pull Request
         if: steps.parseissue.outputs.continue-workflow == 'true'
