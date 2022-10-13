@@ -1,0 +1,51 @@
+name: Parse and create PR
+on:
+  issues:
+    types: ['opened']
+  issue_comment:
+    types: ['created']
+  push:
+    branches:
+      - "*"
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  parse-issue-and-create-pr:
+    if: github.event_name != 'push' && github.event_name != 'pull_request' && (github.event_name ´== 'issue_comment' && github.event.comment.body == '/vaidate' ) && (github.event_name != 'schedule')
+    runs-on: ubuntu-latest
+    name: Parse issue, validate & say hi
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '12'
+          check-latest: true
+      - run: npm install
+      - name: parsing from body of the issue
+        uses: ./
+        id: parseissue
+        with:
+          starting-parse-symbol: '<!--::-->'
+          file-name-extension: 'tweet'
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Create Pull Request
+        if: steps.parseissue.outputs.continue-workflow == 'true'
+        uses: peter-evans/create-pull-request@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Add new tweet file via automation
+          title: 'add: new tweet file via automation'
+          tweet-label-id: 'kind/tweet'
+          body: |
+            This PR is auto-generated.
+            Fixes: #${{ steps.parseissue.outputs.issueNumber}}
+            /cc @${{ github.actor }}
+          labels: add, automated pr
+          branch: add/${{ steps.parseissue.outputs.issueNumber}}
+          base: main
+          signoff: true
+          delete-branch: true
